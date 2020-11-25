@@ -8,12 +8,12 @@
 import SwiftUI
 
 @main
-struct TherapyAppApp: App {
+struct TherapyApp: App {
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
