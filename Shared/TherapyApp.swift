@@ -1,6 +1,6 @@
 //
 //  TherapyAppApp.swift
-//  Shared
+//  TherapyApp
 //
 //  Created by Aiur on 23.11.2020.
 //

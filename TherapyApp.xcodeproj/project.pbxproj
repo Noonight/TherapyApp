@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D94F718A256E9E3F0089D129 /* TherapyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94F7189256E9E3F0089D129 /* TherapyModel.swift */; };
+		D94F718B256E9E3F0089D129 /* TherapyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94F7189256E9E3F0089D129 /* TherapyModel.swift */; };
+		D94F718E256E9EC60089D129 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D995CFFF256E8E4500A54751 /* TestData.swift */; };
+		D94F7191256E9ED70089D129 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C57404256E4AA400204AC7 /* Date.swift */; };
+		D94F7194256E9EDC0089D129 /* AddTherapyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D995CFF5256E8D9600A54751 /* AddTherapyView.swift */; };
 		D995CFF6256E8D9600A54751 /* AddTherapyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D995CFF5256E8D9600A54751 /* AddTherapyView.swift */; };
 		D995D000256E8E4500A54751 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D995CFFF256E8E4500A54751 /* TestData.swift */; };
 		D9A47046256BB83A000E753A /* TherapyApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9A47030256BB836000E753A /* TherapyApp.xcdatamodeld */; };
@@ -22,10 +27,10 @@
 		D9A47064256BF563000E753A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A47063256BF563000E753A /* MainView.swift */; };
 		D9A47065256BF563000E753A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A47063256BF563000E753A /* MainView.swift */; };
 		D9C57405256E4AA500204AC7 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C57404256E4AA400204AC7 /* Date.swift */; };
-		D9C5740C256E7EBE00204AC7 /* TherapyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5740B256E7EBE00204AC7 /* TherapyModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D94F7189256E9E3F0089D129 /* TherapyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TherapyModel.swift; sourceTree = "<group>"; };
 		D995CFF5256E8D9600A54751 /* AddTherapyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTherapyView.swift; sourceTree = "<group>"; };
 		D995CFFF256E8E4500A54751 /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
 		D9A47031256BB836000E753A /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
@@ -40,7 +45,6 @@
 		D9A47045256BB83A000E753A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		D9A47063256BF563000E753A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		D9C57404256E4AA400204AC7 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
-		D9C5740B256E7EBE00204AC7 /* TherapyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TherapyModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,7 +169,7 @@
 		D9C5740A256E7EA900204AC7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				D9C5740B256E7EBE00204AC7 /* TherapyModel.swift */,
+				D94F7189256E9E3F0089D129 /* TherapyModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -269,11 +273,11 @@
 			files = (
 				D995D000256E8E4500A54751 /* TestData.swift in Sources */,
 				D995CFF6256E8D9600A54751 /* AddTherapyView.swift in Sources */,
-				D9C5740C256E7EBE00204AC7 /* TherapyModel.swift in Sources */,
 				D9A47046256BB83A000E753A /* TherapyApp.xcdatamodeld in Sources */,
 				D9C57405256E4AA500204AC7 /* Date.swift in Sources */,
 				D9A4704C256BB83A000E753A /* Persistence.swift in Sources */,
 				D9A47048256BB83A000E753A /* TherapyApp.swift in Sources */,
+				D94F718A256E9E3F0089D129 /* TherapyModel.swift in Sources */,
 				D9A47064256BF563000E753A /* MainView.swift in Sources */,
 				D9A4704A256BB83A000E753A /* ContentView.swift in Sources */,
 			);
@@ -284,9 +288,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9A47047256BB83A000E753A /* TherapyApp.xcdatamodeld in Sources */,
+				D94F7194256E9EDC0089D129 /* AddTherapyView.swift in Sources */,
 				D9A4704D256BB83A000E753A /* Persistence.swift in Sources */,
 				D9A47049256BB83A000E753A /* TherapyApp.swift in Sources */,
+				D94F7191256E9ED70089D129 /* Date.swift in Sources */,
+				D94F718B256E9E3F0089D129 /* TherapyModel.swift in Sources */,
 				D9A47065256BF563000E753A /* MainView.swift in Sources */,
+				D94F718E256E9EC60089D129 /* TestData.swift in Sources */,
 				D9A4704B256BB83A000E753A /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

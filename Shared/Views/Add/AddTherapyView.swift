@@ -1,6 +1,6 @@
 //
 //  AddTherapyView.swift
-//  TherapyApp (iOS)
+//  TherapyApp
 //
 //  Created by Aiur on 25.11.2020.
 //
