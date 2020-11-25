@@ -1,6 +1,6 @@
 # TherapyApp
 
-This app for macOs and iOS created using SwiftUI.
+This app for macOS and iOS created using SwiftUI.
 
 There are base diagrams for app:
 
